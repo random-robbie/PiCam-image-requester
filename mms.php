@@ -10,7 +10,7 @@
 
  
 	// Prepare data for POST request
-	$data = array('username' => $txtusername, 'hash' => $hash, 'numbers' => $number, 'message' => $mmsmessage, 'url' => $url, 'test' => $test);
+	$data = array('username' => $txtusername, 'hash' => $hash, 'numbers' => $number, 'message' => $mmsmessage, 'url' => $url, 'test' => $test, 'sender' => $sender);
  
 	// Send the POST request with cURL
 	$ch = curl_init('https://api.txtlocal.com/send_mms/');
