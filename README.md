@@ -11,6 +11,10 @@ send a text to your inbox with either "MMS" or "email" or "tweet" and you will g
 
 I have used apache for this and setup postfix to send the email.
 
+Does require a [Textlocal] (http://www.txtlocal.co.uk/?tlrx=162301)  account.
+
+Contact me if you need to use a different providers API.
+
 config.php
 -------
 
