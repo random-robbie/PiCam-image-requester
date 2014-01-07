@@ -1,9 +1,6 @@
 PiCam-image-requester
 =====================
 
-Send a SMS and Your Raspberry Pi cam will send a MMS or Email or Tweet of the pic for you
-
-
 Install this script on your Pi with Picam and portforward your http port.
 
 enter the details in the settings on your textlocal inbox.
@@ -13,6 +10,10 @@ once you have set it up
 send a text to your inbox with either "MMS" or "email" or "tweet" and you will get an image back!
 
 I have used apache for this and setup postfix to send the email.
+
+Does require a [Textlocal] (http://www.txtlocal.co.uk/?tlrx=162301)  account.
+
+Contact me if you need to use a different providers API.
 
 config.php
 -------
