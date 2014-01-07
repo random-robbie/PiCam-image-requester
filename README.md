@@ -33,8 +33,18 @@ $efrom = "PI CAM <FROM EMAIL ADDRESS>";  // Sender email address
 $eto = "Email test <TOEMAILADDRESS>"; // email address to send all pics to
 $subject = "Pi Cam"; // Email subject
 
+```
+
+Run the following command as root 
+
 
 ```
+sudo echo "www-data ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+```
+
+
+
+This repo includes codebird - https://github.com/jublonet/codebird-php
 
 
 Hopefully all is clear for you to set this up.
