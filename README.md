@@ -27,7 +27,7 @@ $keyword = ''; // Your Inbox Keyword ensure you add a space
 // MMS Message details
 $mmsmessage = "Your Requested Image";  // MMS message with pic
 $sender = 'Pi Cam';  // Sender ID
-$test = "TRUE";  // Set to FALSE to send the MMS true is set to test it's working
+$test = "TRUE";  // Remove TRUE if you wish to send the MMS at cost or TRUE if you want to confirm it's working with outsending.
 
 //Authorised Numbers array
 $auth = array('447741256987');  // add your number or any other numbers here to allow them to use the service
