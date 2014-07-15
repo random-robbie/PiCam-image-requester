@@ -33,6 +33,11 @@ $efrom = "PI CAM <FROM EMAIL ADDRESS>";
 $eto = "Email test <TOEMAILADDRESS>";
 $subject = "Pi Cam";
 
+// Image Height and Width
+$height = "640";
+$width = "800";
+
+
 
 
 ?>
