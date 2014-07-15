@@ -16,7 +16,7 @@ $width = "800";
 
 $filename = '' . uniqid() . '';
 $currentdir = getcwd();
-passthru ('sudo raspistill -o '.$currentdir.'/images/image_'.$filename.'.jpg -h ".$height." -w ".$width." -vf');
+passthru ('sudo raspistill -o '.$currentdir.'/images/image_'.$filename.'.jpg -h '.$height.' -w '.$width.' -vf');
 echo "Photo Taken File name is image_".$filename.".jpg <br>";
 $image = "".$currentdir."/images/image_".$filename.".jpg";
 
